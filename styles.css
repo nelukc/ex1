@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, sans-serif ;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure flex container takes up at least viewport height */
+}
+
+img{
+    height: 100vh;
+    max-width: 100%; /* Ensure the image doesn't exceed viewport width */
+}
+
+.countdown{
+    text-align: center;
+    margin-bottom: 10px; /* Add some spacing */
+    position: absolute;/* Position absolutely */
+    bottom: 0; /* Align to the bottom of the relative container */
+    left: 45%; /* Move to the horizontal center */
+    padding: 10px;/* Add padding for better readability */
+}
+
+time{
+    display: inline-block;
+    font-size: 18px;
+}
